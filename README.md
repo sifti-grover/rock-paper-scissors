@@ -18,10 +18,13 @@ This is a graphical Rock-Paper-Scissors game created with Python using the Tkint
 
 ## How to Run
 1. Clone the repository :
+   ```bash
    git clone <https://github.com/sifti-grover/rock-paper-scissors>
-2. Navigate to the project directory :
+3. Navigate to the project directory :
+   ```bash
    cd rock-paper-scissors
-3. Run the script:
+5. Run the script:
+   ```bash
    python rock_paper_scissors.py
 
 ## Gameplay Instructions
@@ -31,10 +34,10 @@ This is a graphical Rock-Paper-Scissors game created with Python using the Tkint
 4. Click QUIT to end the game and view the final scores.
 
 ## Code Overview
-=> show_frame(): Function to navigate between frames in the Tkinter GUI.
-=> determineWinner(): Logic to determine the winner based on the player's and computer's choices.
-=> rps(): Handles the game logic, generating computer's choice, and calling the winner function.
-=> quit(): Ends the game and displays the final scores.
+- show_frame(): Function to navigate between frames in the Tkinter GUI.
+- determineWinner(): Logic to determine the winner based on the player's and computer's choices.
+- rps(): Handles the game logic, generating computer's choice, and calling the winner function.
+- quit(): Ends the game and displays the final scores.
 
 ## Future Improvements
 - Add animations and sound effects.
@@ -42,8 +45,13 @@ This is a graphical Rock-Paper-Scissors game created with Python using the Tkint
 - Multiplayer mode to allow two players to play.
 
 ## Screenshots
+![Welcome Screen](images/homepage.png)
+![Welcome Screen](images/enterthename.png)
+![Gameplay Screen](images/gameInterface.png)
+![Gameplay Screen](images/working.png)
+![Score Screen](images/result_page.png)
 
-
+## Enjoy the game!
 
 
 
